@@ -25,7 +25,9 @@
     border-radius: 40px;
     flex-direction: column;
     width: 35%;
-    background: url("https://i.pinimg.com/originals/12/ff/cb/12ffcbf68b7837737df62d5ff9266ca5.png");
+    background: url("https://news24.az/uploads/posts/2020-10/1601632052_hava1.jpg");
+    background-position: center;
+    background-size: cover;
     box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
 }
 .rightSide:hover{
