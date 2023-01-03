@@ -1,0 +1,274 @@
+.locAndSunCont{
+    padding: 10px;
+    color: white;
+    width:auto;
+}
+.flag{
+    margin-top: 30px;
+    height:200px;
+    width:200px;
+    margin-left: 10px;
+}
+.locContainer{
+    width:auto;
+    height: 50px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapAndCountryContainer{
+    background-color: rgba(89, 175, 255, 0.63);
+    padding-right: 5px;
+    margin-left: 8px;
+    margin-right: 10px;
+   width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-compass{
+    color: rgb(0, 0, 130);
+    margin-left: 10px;
+    
+}
+
+.locationName{
+    margin-left: 10px;
+font-size: 30px;
+}
+
+
+
+
+
+.input{
+    width: 250px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 0 5px;
+    border: 1px solid rgb(0, 0, 130);
+    outline: none;
+    color: rgb(0, 0, 130);
+    font-size: 18px;
+}
+
+.none{
+    display: none;
+}
+
+
+.SearchForm{
+width: 300px;
+}
+
+.sunRiseSunSetContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+   
+}
+.sunRiseSunSetContainer:hover{
+    margin-top: 120px;
+}
+
+.SunriseText, .sunsetText{
+    border: 2px solid rgba(30, 135, 255, 0.542);
+    background-color: #ffffff5e;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    color: rgb(0, 0, 130);
+}
+
+.sunriseContainer, .sunsetContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.sunsetContainer{
+    margin-left: 10%;
+}
+
+.clock{
+    border: 2px solid white;
+    color: rgb(0, 0, 130);
+    width: 150px;
+    height: 60px;
+    border-radius: 11.3852px;
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.Error{
+    width: 100%;
+    max-width: 130px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1271px){
+    .locContainer{
+        width: 80%;
+        flex-direction: column;
+        height: 70px;
+    }
+
+    .mapAndCountryContainer{
+        width: 50%;
+        width: auto;
+    }
+
+    .inputContainer{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 530px) and (max-width: 1371px){
+    .mapAndCountryContainer{
+        width: 80%;
+        width: auto;
+        margin-left: 0px;
+        border-radius: 10px;
+        margin-left: 20px;
+
+    }
+    
+    .sunRiseSunSetContainer{
+        flex-direction: column;
+    }
+
+    .sunsetContainer{
+        margin-left: unset;
+        margin-top: 30px;
+    }
+
+    .sunsetContainer, .sunriseContainer{
+        height: 80px;
+    }
+
+    .SunriseText, .sunsetText{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .clock{
+        font-size: 25px;
+        height: 50px;
+    }
+
+    .input{
+        width: 150px;
+        height: 25px;
+        font-size: 15px;
+    }
+    
+    .searchbutton{
+        width: 30px;
+        height: 30px;
+    }
+   
+
+    .mapImage{
+        width: 25px;
+        height: 25px;
+    }
+    .locationName{
+        margin-left: 10px;
+    font-size: 20px;
+    }
+    .inputContainer{
+        width:90%
+    }
+    .flag{
+        width:150px;
+        height: 100px;
+     
+    }
+}
+
+
+@media (min-width: 250px) and (max-width: 530px){
+    .input{
+        width: 100%;
+        max-width: 150px;
+        margin: auto;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .mapAndCountryContainer{
+        width: 100%;
+        max-width: 160px;
+
+        border-radius: 10px;
+        margin-left: 10px;
+
+    }
+
+    .searchbutton{
+        width: 30px;
+        height: 30px;
+    }
+
+    .inputContainer{
+        width: 90%;
+ 
+    }
+
+    .sunRiseSunSetContainer{
+        flex-direction: column;
+    }
+
+    .sunsetContainer{
+        margin-left: unset;
+        margin-top: 20px;
+    }
+
+    .SunriseText, .sunsetText{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .clock{
+        width: 120px;
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .sunsetContainer, .sunriseContainer{
+        height: 70px;
+    }
+
+    .mapImage{
+        width: 20px;
+        height: 20px;
+    }
+    .locationName{
+        margin-left: 10px;
+    font-size: 20px;
+    }
+    .flag{
+        width:100px;
+        height: 100px;
+        margin-left: 30px;
+    }
+}
