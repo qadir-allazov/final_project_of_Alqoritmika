@@ -1,18 +1,25 @@
 .footerDiv{
     padding: 30px;
-background-color: rgb(49, 89, 177);;
-    color: #FBCB0A;
+    background: linear-gradient(-90deg,rgba(1, 16, 39, 0),rgba(8, 1, 51, 0.9));
+    background-color: #3aaf1d;
+    color: white;
 }
 
 .footerCont{
     width: 80%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.footerCont>div{
+    width: 40%;
+}
 .contactUsContainer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center ;
     width: 210px;
     height: 110px;
     margin: auto;
@@ -21,14 +28,8 @@ background-color: rgb(49, 89, 177);;
 }
 
 .email{
-    border-radius: 10px;
-    width: 220px;
-    display: block;
-    padding: 5px 5px 5px 5px;
-    background-color: aliceblue;
     text-decoration: none;
-    color: #060606;
-    font-weight: 500;
+    color: white;
 }
 
 .contactUs{
