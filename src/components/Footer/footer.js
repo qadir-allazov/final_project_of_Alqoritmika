@@ -6,10 +6,11 @@ function Footer() {
                  
                 <div className="contactUsContainer">
                     <h3 className="contactUs">Əlaqə saxlayın</h3>
-                    <a href="mailto: badr03@mail.ru" className="email">badr03@mail.ru</a>
-                    <a href="tel: +994-055-55-55" className="email">+994-055-555-55-55</a>
+                    <a href="" className="email">memmedovaslan670@gmail.com</a>
+                    <a href="" className="email">070-816-36-07</a>
                 </div>
-                <div className="copyright">© 2022 SunWeather. Bütün hüquqlar qorunur.</div>
+                <span></span>
+                <div className="copyright">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
             </div>
         </div> 
     );

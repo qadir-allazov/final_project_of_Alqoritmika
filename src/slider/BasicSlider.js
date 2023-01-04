@@ -77,11 +77,6 @@ backgroundAttachment: "fixed"
 
 <h1><i>"Havanın necə olmasından asılı olmayaraq həmişə şən və pozitiv olun."</i></h1>
 <br></br>
-<img
-        src="https://images.unsplash.com/photo-1626548307930-deac221f87d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80"
-        alt="zurafe"
-        height="200"
-      />
     </div>
     </div>
   )

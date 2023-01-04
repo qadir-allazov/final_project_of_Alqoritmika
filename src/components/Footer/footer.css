@@ -1,5 +1,5 @@
 .footerDiv{
-    padding: 30px;
+    padding: 10px 30px;
     background: linear-gradient(-90deg,rgba(1, 16, 39, 0),rgba(8, 1, 51, 0.9));
     background-color: #3aaf1d;
     color: white;
@@ -11,9 +11,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-items: center;
 }
 .footerCont>div{
     width: 40%;
+}
+.footerCont>span{
+    width: 1px;
+    height: 60px;
+    background-color: white;
 }
 .contactUsContainer{
     display: flex;
@@ -35,6 +41,8 @@
 .contactUs{
     color: #fbfbfb;
     margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
 }
 
 .copyright{
