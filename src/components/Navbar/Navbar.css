@@ -1,7 +1,7 @@
 .Navbarcont{
     padding: 10px;
     background: linear-gradient(-90deg,rgba(1, 16, 39, 0),rgba(8, 1, 51, 0.9));
-    background-color: #3aaf1d;
+    background-color: #3aaf1d;;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
